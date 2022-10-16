@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="slides">
+  <h1>Lab2 - slider</h1>
+  <h3>5 seconds auto slide</h3>
+  <div class="slideshow-container">
+    <div class="mySlides fade"><img src="https://images.pexels.com/photos/2706654/pexels-photo-2706654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" style="width:100%" alt=""></div>
+    <div class="mySlides fade"><img src="https://images.pexels.com/photos/1252873/pexels-photo-1252873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" style="width:100%" alt=""></div>
+    <div class="mySlides fade"><img src="https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" style="width:100%" alt=""></div>
+    <div class="mySlides fade"><img src="https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" style="width:100%" alt=""></div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a> </div>
+  <br>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+  <div class="switch">
+    <input type="button" id="mixButton" value="Stop" />
+  </div>
+</div>
+<main>
+</main>
+<script src="main.js"></script>
+</body>
+
+</html>
