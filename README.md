@@ -6,3 +6,4 @@
 
 ### [Lab2 - slider](https://github.com/meef1k/JS-studia/tree/main/cw2)
 
+### [Lab3 - drumkit](https://github.com/meef1k/JS-studia/tree/main/cw3)
