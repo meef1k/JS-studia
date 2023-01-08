@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Drumkit</title>
 </head>
 <body>
   <div>
@@ -30,7 +30,33 @@
       <audio hidden src="./sounds/snare.wav" controls id="s7"></audio>
       <audio hidden src="./sounds/tink.wav" controls id="s8"></audio>
       <audio hidden src="./sounds/tom.wav" controls id="s9"></audio>
-    <script src="drumkit.js"></script>
+      <div id="lineOne">
+        <input type="button" id="firstRecordingButton" value="Record line 1">
+        <input type="button" id="firstLinePlayButton" value="Play Line 1">
+        <label for="firstLinePlayCheckbox">Line 1</label>
+        <input type="checkbox" id="firstLinePlayCheckbox">
+      </div>
+      <div id="lineTwo">
+        <input type="button" id="secondRecordingButton" value="Record line 2">
+        <input type="button" id="secondLinePlayButton" value="Play Line 2">
+        <label for="secondLinePlayCheckbox">Line 2</label>
+        <input type="checkbox" id="secondLinePlayCheckbox">
+      </div>
+      <div id="lineThree">
+        <input type="button" id="thirdRecordingButton" value="Record line 3">
+        <input type="button" id="thirdLinePlayButton" value="Play Line 3">
+        <label for="thirdLinePlayCheckbox">Line 3</label>
+        <input type="checkbox" id="thirdLinePlayCheckbox">
+      </div>
+      <div id="lineFour">
+        <input type="button" id="fourthRecordingButton" value="Record line 4">
+        <input type="button" id="fourthLinePlayButton" value="Play Line 4">
+        <label for="fourthLinePlayCheckbox">Line 4</label>
+        <input type="checkbox" id="fourthLinePlayCheckbox">
+      </div>
+      <input type="button" id="allPlayButton" value="Play">
+      <script type="text/javascript" src="drumkit.js"></script>
+    </div>
   </div>
 </body>
 </html>
