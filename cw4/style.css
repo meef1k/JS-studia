@@ -1,51 +1,107 @@
 body {
-  margin: 0;
-  padding: 0;
-}
-
-.allNote {
-  z-index: -2;
-  display: flex;
-  align-items: center;
-  width: 100vw;
-  height: 30vh;
-}
-
-.pinNote {
-  z-index: -2;
-  display: flex;
-  align-items: center;
-  width: 100vw;
-  height: 30vh;
-}
-
-.note {
-  max-width: 450px;
-  max-height: 300px;
-  margin: 10px;
-  text-align: center;
-  border-radius: 5px;
-}
-
-.note p {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.note h1 {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.note h4 {
-  padding-left: 10px;
-  padding-right: 10px;
+  font-family: sans-serif;
+  padding: 2em;
+  background-color: #f2f2f2;
 }
 
 .form {
-  width: 100%;
-  height: 125px;
-  background-color: whitesmoke;
-  display: block;
+  background-color: white;
+  padding: 2em;
+  border-radius: 5px;
+  box-shadow: 0 0 10px gray;
+}
+
+h1 {
   text-align: center;
+  margin: 0;
+}
+
+#noteTitle, #noteContent {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 1em 0;
+  font-size: 1.2em;
+  box-sizing: border-box;
+}
+
+select {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 1em 0;
+  font-size: 1.2em;
+  box-sizing: border-box;
+}
+
+#pin {
+  margin-right: 1em;
+  vertical-align: middle;
+}
+
+label {
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+#noteAdd, #noteEdit {
+  padding: 10px 20px;
+  background-color: lightblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.pinNote, .allNote {
+  padding: 2em;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px gray;
+  margin-top: 2em;
+}
+
+section {
+  border-bottom: 1px solid gray;
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+article section {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid red;
+}
+
+section h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+section h4 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+div button {
+  background-color: lightblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-right: 10px;
+  cursor: pointer;
 }

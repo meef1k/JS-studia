@@ -48,7 +48,7 @@ function addHtml() {
     const htmlTitle = document.createElement('h1');
     const htmlContent = document.createElement('p');
     const htmlDate = document.createElement('h4');
-    const htmlDivIcon = document.createElement('div')
+    const htmlDivIcon = document.createElement('div');
     const htmlBtn = document.createElement('button');
     const htmlPin = document.createElement('button');
     const htmlEdit = document.createElement('button');
@@ -57,7 +57,7 @@ function addHtml() {
     htmlContent.innerHTML = note.content;
     htmlDate.innerHTML = note.createDate.toLocaleString();
     htmlBtn.innerHTML = 'Remove';
-    htmlPin.innerHTML = 'Pin';
+    htmlPin.innerHTML = 'Pin/Unpin';
     htmlEdit.innerHTML = 'Edit';
     htmlBtn.classList.add(`forRemove${rem}`);
     htmlPin.classList.add(`forPin${rem}`);
