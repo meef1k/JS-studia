@@ -1,3 +1,8 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
 #slides{
   width:96%;
   margin: auto;
@@ -16,10 +21,9 @@ h1, h3 {
 }
 
 .slideshow-container {
-  width: 800px;
+  max-width: 800px;
   position: relative;
   margin: auto;
-
 }
 
 .prev, .next {
@@ -42,7 +46,7 @@ h1, h3 {
 }
 
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .text {
@@ -57,8 +61,8 @@ h1, h3 {
 
 .dot {
   cursor: pointer;
-  height: 13px;
-  width: 13px;
+  height: 15px;
+  width: 15px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -78,6 +82,7 @@ h1, h3 {
 }
 
 .switch {
+  margin: 20px 0;
   text-align: center;
 }
 
@@ -89,4 +94,17 @@ h1, h3 {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+#mixButton {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#mixButton:hover {
+  background-color: #555;
 }
