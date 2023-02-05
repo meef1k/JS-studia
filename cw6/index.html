@@ -3,26 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Canvas</title>
-  <style>
-    canvas {
-      border: 1px solid black;
-    }
-  </style>
+  <h1>Lab6 - Canvas</h1>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <canvas id="canvas" width="500" height="500"></canvas>
-  <br>
-  <label for="numBalls">Number of balls:</label>
-  <input type="text" id="numBalls" value="10">
-  <br>
-  <label for="minDistance">Minimum distance:</label>
-  <input type="text" id="minDistance" value="100">
-  <br>
-  <button id="startBtn">Start</button>
-  <button id="resetBtn">Reset</button>
-  <br>
-  <p id="performance"></p>
+  <div id="options">
+    <label for="numBalls">Number of balls:</label>
+    <input type="text" id="numBalls" value="10">
+    <label for="minDistance">Minimum distance:</label>
+    <input type="text" id="minDistance" value="100">
+    <button id="startBtn">Start</button>
+    <button id="resetBtn">Reset</button>
+    <p id="performance"></p>
+  </div>
   <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
