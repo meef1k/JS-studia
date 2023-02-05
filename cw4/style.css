@@ -48,7 +48,7 @@ label {
 
 #noteAdd, #noteEdit {
   padding: 10px 20px;
-  background-color: lightblue;
+  background-color: steelblue;
   color: white;
   border: none;
   cursor: pointer;
@@ -96,7 +96,7 @@ section h4 {
 }
 
 div button {
-  background-color: lightblue;
+  background-color: steelblue;
   color: white;
   border: none;
   border-radius: 5px;
